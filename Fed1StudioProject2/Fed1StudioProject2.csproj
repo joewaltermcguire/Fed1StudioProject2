@@ -67,9 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="class.html" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
-    <Content Include="home.html" />
     <Content Include="about.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
