@@ -1,0 +1,155 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Monoton&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway:wght@100&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Offside&family=Raleway:wght@100&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Offside', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Offside&family=Raleway:wght@100&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Anton', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Offside', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+a {
+    color: peru;
+    font-weight: bold;
+    text-decoration: none; /*removes the default underline*/
+}
+
+#headerOverlay {
+    background-image: url('../images/About image.png');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+}
+
+.smooth {
+    padding: 1em;
+}
+
+section p {
+    display: inline-block;
+}
+
+p {
+    font: .8em 'Anton';
+}
+
+h1 {
+    font: 4em 'Monoton', cursive;
+}
+
+h2 {
+    font: 1.6em 'Raleway', cursive;
+}
+
+center {
+    margin-auto;
+    border-image: 4px round darkgray;
+}
+
+nav ul {
+    font: 1.2em '',cursive;
+    background-color: darkmagenta;
+    padding: .8em;
+    border-top: 2px dotted darkgray;
+    border-bottom: 2px dotted darkgray;
+}
+
+    nav ul li:hover {
+        background-color: darkblue
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            padding: .1em 1em;
+            display: block;
+        }
+
+h1 {
+    color: orangered;
+    font-size: 24px;
+}
+.contact 
+{
+
+}
+.service {
+    float: left;
+    background: #eee;
+    width: 29.33%;
+    margin: 1%
+    padding: 1%
+    height: 140px;
+}
+
+main {
+}
+
+.soulmusic {
+    border-bottom: dashed 10px red;
+}
+
+.align-left {
+    text-align: center;
+}
+
+div {
+    float: left;
+    padding: 15px;
+}
+
+.div1 {
+    /*background: purple;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.div2 {
+    /*background: orange;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.div3 {
+    /*background: lightgreen;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.div4 {
+    /*background: lightblue;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
