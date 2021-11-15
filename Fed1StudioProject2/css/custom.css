@@ -39,6 +39,25 @@ a {
     text-decoration: none; /*removes the default underline*/
 }
 
+
+
+.wrapper {
+    background:#fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding 20px;
+}
+
+.teamnav nav {
+    font: 2.5em 'Monoton', cursive;
+    float: none;
+    background-color: lightblue;
+    width: auto;
+    margin-bottom: 1%;
+    font: 50px;
+  
+} 
+
 #headerOverlay {
     background-image: url('../images/About image.png');
     background-repeat: no-repeat;
@@ -53,18 +72,20 @@ a {
 
 section p {
     display: inline-block;
-}
-
-p {
     font: .8em 'Anton';
+    padding: 1em;
 }
-
 h1 {
-    font: 4em 'Monoton', cursive;
+    font: 2.5em 'Monoton', cursive;
+    float: none;
+    background-color: lightblue;
+    width: auto;
+    margin-bottom: 1%;
+    font: 50px;
 }
 
 h2 {
-    font: 1.6em 'Raleway', cursive;
+    font: 1.2em 'Anton', cursive;
 }
 
 center {
@@ -92,10 +113,16 @@ nav ul {
             padding: .1em 1em;
             display: block;
         }
-
+/*.team section {
+    float: left;
+    width: 21%;
+    margin: 1%;
+    padding: 1%;
+    height: 100px;
+}*/
 h1 {
     color: orangered;
-    font-size: 24px;
+    
 }
 .contact 
 {
@@ -106,8 +133,6 @@ h1 {
     background: #eee;
     width: 29.33%;
     margin: 1%
-    padding: 1%
-    height: 140px;
 }
 
 main {
