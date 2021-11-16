@@ -149,6 +149,9 @@ main {
     text-align: center;
 }
 
+/*
+    Andrew's code to reference
+*/
 div {
     float: left;
     padding: 15px;
@@ -181,6 +184,7 @@ div {
     width: 25%;
     box-sizing: border-box;
 }
+
 
 
 

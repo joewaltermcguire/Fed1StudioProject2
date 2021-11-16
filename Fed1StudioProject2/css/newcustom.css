@@ -33,125 +33,19 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Space Mono', monospace;
 */
 
-a {
-    color: peru;
-    font-weight: bold;
-    text-decoration: none; /*removes the default underline*/
-}
-
-.logo div {
 
 
-}
-
-.wrapper {
-    background:#fff;
-    max-width: 960px;
-    margin: 0 auto;
-    padding 20px;
-}
-
-.teamnav nav {
-    font: 2.5em 'Monoton', cursive;
-    float: none;
-    background-color: lightblue;
-    width: auto;
-    margin-bottom: 1%;
-    font: 50px;
-  
-} 
-
-#headerOverlay {
-    background-image: url('../images/About image.png');
-    background-repeat: no-repeat;
-    background-size: 90px;
-    background-position: 3% center;
-    padding: 2em;
-}
-
-.smooth {
-    padding: 1em;
-}
-
-section p {
-    display: inline-block;
-    font: .8em 'Anton';
-    padding: 1em;
-}
-h1 {
-    font: 2.5em 'Monoton', cursive;
-    float: none;
-    background-color: lightblue;
-    width: auto;
-    margin-bottom: 1%;
-    font: 50px;
-}
-
-h2 {
-    font: 1.2em 'Anton', cursive;
-}
-
-center {
-    margin-auto;
-    border-image: 4px round darkgray;
-}
-
-nav ul {
-    font: 1.2em '',cursive;
-    background-color: darkmagenta;
-    padding: .8em;
-    border-top: 2px dotted darkgray;
-    border-bottom: 2px dotted darkgray;
-}
-
-    nav ul li:hover {
-        background-color: darkblue
-    }
-
-    nav ul li {
-        display: inline-block;
-    }
-
-        nav ul li a {
-            padding: .1em 1em;
-            display: block;
-        }
-/*.team section {
-    float: left;
-    width: 21%;
-    margin: 1%;
-    padding: 1%;
-    height: 100px;
-}*/
-h1 {
-    color: orangered;
-    
-}
-.contact 
-{
-
-}
-.service {
-    float: left;
-    background: #eee;
-    width: 29.33%;
-    margin: 1%
-}
-
-main {
-}
-
-.soulmusic {
-    border-bottom: dashed 10px red;
-}
-
-.align-left {
+    h2 {
+    font: 1em 'Anton', cursive;
+    background-color: aqua;
+    width: 50%;
+    padding: .2em;
+    margin: 15px;
     text-align: center;
 }
-
 div {
     float: left;
-    padding: 15px;
+    padding: 10px;
 }
 
 .div1 {
@@ -182,63 +76,86 @@ div {
     box-sizing: border-box;
 }
 
-
-
-header {
-    background: #303055;
-    color: white;
-    padding-top: 10px;
-    min-height: 90px;
-    border-bottom: #6FC41C 4px solid;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.1em;
-}
-
-header li {
+.div5 {
+    /*background: lightblue;*/
     float: left;
-    display: inline;
-    padding: 0px 20px 0px 20px;
+    width: 25%;
+    box-sizing: border-box;
 }
-
-header #branding img {
+.div6 {
+    /*background: lightblue;*/
     float: left;
-    width: 100px;
-    height: 100px;
-    padding: 0 35px 0 15px;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    width: 25%;
+    box-sizing: border-box;
+}
+.div7 {
+    /*background: lightblue;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+.div8 {
+    /*background: lightblue;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+.div9 {
+    /*background: lightblue;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+.div10 {
+    /*background: lightblue;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+.div11 {
+    /*background: lightblue;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+.div12 {
+    /*background: lightblue;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
 }
 
-header #branding h1 p {
-    display: inline;
+.faculty {
+    background: #ff6a00;
+    max-height width: 960px;
+    margin:0 auto;
+    padding: 20px;
+}
+nav ul {
+    font: 1.2em '',cursive;
+    background-color: darkmagenta;
+    padding: .8em;
+    border-top: 2px dotted darkgray;
+    border-bottom: 2px dotted darkgray;
 }
 
-header #branding h1 {
-    font-size: 2.25em;
-    margin-bottom: 0px;
-}
+    nav ul li:hover {
+        background-color: darkblue
+    }
 
-header #branding p {
-    font-style: italic;
-    font-size: .75em;
-    margin-top: 5px;
-}
+    nav ul li {
+        display: inline-block;
+    }
 
-header nav {
-    float: right;
-    margin-top: 10px;
+        nav ul li a {
+            padding: .1em 1em;
+            display: block;
+        }
+h1 {
+    font: 3em 'Monoton', cursive;
+    float: none;
+    background-color: lightblue;
+    width: auto;
+    margin-bottom: 1%;
+    font: 50px;
 }
-
-header .highlight, header .current a {
-    color: #6FC41C;
-    font-weight: bold;
-}
-
-header a:hover {
-    color: #E5EC2E;
-    font-weight: bold;
