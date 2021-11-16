@@ -67,8 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="class.html" />
+    <Content Include="classes2.html" />
     <Content Include="CSS.html" />
+    <Content Include="css\customclasses.css" />
     <Content Include="css\newcustom.css" />
     <Content Include="css\custom.css" />
     <Content Include="css\fontawesome.css" />
