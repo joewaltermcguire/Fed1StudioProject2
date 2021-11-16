@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="class.html" />
     <Content Include="CSS.html" />
+    <Content Include="css\newcustom.css" />
     <Content Include="css\custom.css" />
     <Content Include="css\fontawesome.css" />
     <Content Include="css\fontawesome.min.css" />

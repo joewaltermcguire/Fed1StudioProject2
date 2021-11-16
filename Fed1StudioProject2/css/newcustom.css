@@ -184,3 +184,61 @@ div {
 
 
 
+header {
+    background: #303055;
+    color: white;
+    padding-top: 10px;
+    min-height: 90px;
+    border-bottom: #6FC41C 4px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+header #branding img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 0 35px 0 15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+header #branding h1 p {
+    display: inline;
+}
+
+header #branding h1 {
+    font-size: 2.25em;
+    margin-bottom: 0px;
+}
+
+header #branding p {
+    font-style: italic;
+    font-size: .75em;
+    margin-top: 5px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #6FC41C;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #E5EC2E;
+    font-weight: bold;
