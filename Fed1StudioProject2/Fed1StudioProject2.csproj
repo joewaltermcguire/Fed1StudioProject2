@@ -68,7 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="classes2.html" />
+    <Content Include="contact - Copy.html" />
+    <Content Include="contactoriginal.html" />
+    <Content Include="contacts3 .html" />
+    <Content Include="cssGridsColumnsTemplate.html" />
     <Content Include="CSS.html" />
+    <None Include="css\customclass4" />
     <Content Include="css\customclasses.css" />
     <Content Include="css\newcustom.css" />
     <Content Include="css\custom.css" />
@@ -81,8 +86,10 @@
     <Content Include="images\Billie1.png" />
     <Content Include="images\Blakey %282%29.png" />
     <Content Include="images\Blakey.png" />
+    <Content Include="images\Contact SheetFed1Project.png" />
     <Content Include="images\Duke E 1.png" />
     <Content Include="images\Duke Ellington-1024x595.jpg" />
+    <Content Include="images\Head.png" />
     <Content Include="images\JessieSmith1.png" />
     <Content Include="images\Logo 1 FS.png" />
     <Content Include="images\Ma Rain 1.png" />
@@ -93,7 +100,6 @@
     <Content Include="images\TaiBell1.png" />
     <Content Include="images\TinaSimone1.png" />
     <Content Include="images\WillGraham1.png" />
-    <Content Include="practice111021.html" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="about.html" />

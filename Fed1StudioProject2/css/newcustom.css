@@ -35,6 +35,34 @@ font-family: 'Space Mono', monospace;
 
 
 
+
+
+
+hh {
+     background: red; /*Background color to header*/
+    background: -moz-linear-gradient(top, red, FFFFFF);
+    
+    /*from to colors, I have used simple name it can be replaced by color codes*/
+     background: -webkit-gradient(linear, left top, left bottom, from(red), to(white));
+     padding: 10px 20px;
+    margin-left: -20px;
+     margin-top: 0;
+     position: relative;
+     width: 70%;
+    
+    /*from droping box shadow at the bottom of header*/
+    moz-box-shadow: 1px 1px 3px #292929;
+    webkit-box-shadow: 1px 1px 3px #292929;
+    box-shadow: 1px 1px 3px #292929;
+    color: #454545;
+    text-shadow: 0 1px 0 white;
+    
+}
+
+
+
+
+
     h2 {
     font: 1em 'Anton', cursive;
     background-color: aqua;
