@@ -1,1 +1,6 @@
-﻿
+﻿div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
