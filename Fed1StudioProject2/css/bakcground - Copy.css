@@ -1,0 +1,15 @@
+﻿.container
+{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.cell {
+    background-color: #BDDAB3;
+    padding: 3rem;
+}
+
+

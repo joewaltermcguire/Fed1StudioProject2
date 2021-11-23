@@ -75,7 +75,7 @@
     <Content Include="contacts3 .html" />
     <Content Include="cssGridsColumnsTemplate.html" />
     <Content Include="CSS.html" />
-    <None Include="css\customclass4" />
+    <Content Include="css\bakcground - Copy.css" />
     <Content Include="css\cssClassesGrid.css" />
     <Content Include="css\customclasses.css" />
     <Content Include="css\newcustom original.css" />
@@ -83,6 +83,7 @@
     <Content Include="css\custom.css" />
     <Content Include="css\fontawesome.css" />
     <Content Include="css\fontawesome.min.css" />
+    <Content Include="css\cssgrid.css" />
     <Content Include="css\stylesheet.css" />
     <Content Include="favicon %282%29.ico" />
     <Content Include="images\About image %281%29.png" />
