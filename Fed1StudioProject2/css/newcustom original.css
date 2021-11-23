@@ -1,8 +1,20 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Monoton&family=Space+Mono&display=swap');
+﻿/*#region font imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Monoton&family=Space+Mono&display=swap');
 
 /*
     font-family: 'Architects Daughter', cursive;
 font-family: 'Monoton', cursive;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Offside&family=Raleway:wght@100&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Anton', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Offside', cursive;
+font-family: 'Raleway', sans-serif;
 font-family: 'Space Mono', monospace;
 */
 
@@ -33,44 +45,40 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Space Mono', monospace;
 */
 
+/*#endregion */
+
+/*#region body and section */
+
+.bodyfaculty {
+    background: linear-gradient(48, 114, 98, 1);
+    width: 100%;
+    height: 100%;
+    border : 1px solid blue;
+    border-radius: 49%;
+    margin: 0 auto;
+    background-image:linear-gradient(red, blue, orange);
+
+}
 
 
-
-
-
-/*hh {
-     background: red; /*Background color to header*/
-    background: -moz-linear-gradient(top, red, FFFFFF);
-    
-    /*from to colors, I have used simple name it can be replaced by color codes*/
-     background: -webkit-gradient(linear, left top, left bottom, from(red), to(white));
-     padding: 10px 20px;
-    margin-left: -20px;
-     margin-top: 0;
-     position: relative;
-     width: 70%;
-    
-    /*from droping box shadow at the bottom of header*/
-    moz-box-shadow: 1px 1px 3px #292929;
-    webkit-box-shadow: 1px 1px 3px #292929;
-    box-shadow: 1px 1px 3px #292929;
-    color: #454545;
-    text-shadow: 0 1px 0 white;
-    
+/*.faculty {
+    background: #ff6a00;
+    max-height: 10%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
 }*/
 
-
-
-
-
-    h2 {
-    font: 1em 'Anton', cursive;
-    background-color: aqua;
-    width: 50%;
-    padding: .2em;
-    margin: 15px;
-    text-align: center;
+.team {
+    font: 1em 'Roboto Mono', cursive;
 }
+
+
+/*#endregion */
+
+
+/*#region div region */
+
 div {
     float: left;
     padding: 10px;
@@ -110,42 +118,49 @@ div {
     width: 25%;
     box-sizing: border-box;
 }
+
 .div6 {
     /*background: lightblue;*/
     float: left;
     width: 25%;
     box-sizing: border-box;
 }
+
 .div7 {
     /*background: lightblue;*/
     float: left;
     width: 25%;
     box-sizing: border-box;
 }
+
 .div8 {
     /*background: lightblue;*/
     float: left;
     width: 25%;
     box-sizing: border-box;
 }
+
 .div9 {
     /*background: lightblue;*/
     float: left;
     width: 25%;
     box-sizing: border-box;
 }
+
 .div10 {
     /*background: lightblue;*/
     float: left;
     width: 25%;
     box-sizing: border-box;
 }
+
 .div11 {
     /*background: lightblue;*/
     float: left;
     width: 25%;
     box-sizing: border-box;
 }
+
 .div12 {
     /*background: lightblue;*/
     float: left;
@@ -153,22 +168,24 @@ div {
     box-sizing: border-box;
 }
 
-.faculty {
-    background: #ff6a00;
-    max-height width: 960px;
-    margin:0 auto;
-    padding: 20px;
-}
+
+
+/*#endregion */
+
+
+/*#region nav style */
+
 nav ul {
     font: 1.2em '',cursive;
-    background-color: darkmagenta;
+    background-image: linear-gradient(green, lightblue, gray);
     padding: .8em;
+
     border-top: 2px dotted darkgray;
     border-bottom: 2px dotted darkgray;
 }
 
     nav ul li:hover {
-        background-color: darkblue
+        background-image: linear-gradient(pink, lightgreen, gray);
     }
 
     nav ul li {
@@ -179,6 +196,13 @@ nav ul {
             padding: .1em 1em;
             display: block;
         }
+
+
+
+/*#endregion */
+
+/*#region h tags */
+
 h1 {
     font: 3em 'Monoton', cursive;
     float: none;
@@ -187,3 +211,17 @@ h1 {
     margin-bottom: 1%;
     font: 50px;
 }
+
+h2 {
+    font: 1em 'roboto mono', cursive;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 75%;
+    padding: .2em;
+    margin: 15px;
+    text-align: center;
+}
+
+
+/*#endregion */
+

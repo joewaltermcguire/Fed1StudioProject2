@@ -98,8 +98,8 @@ center {
 }
 
 nav ul {
-    font: 1.2em '',cursive;
-    background-color: darkmagenta;
+    font: 1.2em ,cursive;
+    background-color: lightcoral;
     padding: .8em;
     border-top: 2px dotted darkgray;
     border-bottom: 2px dotted darkgray;
