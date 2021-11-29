@@ -70,7 +70,8 @@ font-family: 'Space Mono', monospace;
 }*/
 
 .team {
-    font: 1em 'Roboto Mono', cursive;
+    font: 1em '', cursive;
+    font-family: sans-serif;
 }
 
 
@@ -177,7 +178,7 @@ div {
 
 nav ul {
     font: 1.2em '',cursive;
-    background-image: linear-gradient(green, lightblue, gray);
+    background-image: linear-gradient(green, lightpink, gray);
     padding: .8em;
 
     border-top: 2px dotted darkgray;
@@ -185,7 +186,8 @@ nav ul {
 }
 
     nav ul li:hover {
-        background-image: linear-gradient(pink, lightgreen, gray);
+        background-image: linear-gradient(orange, lightgreen, blue);
+        border-radius: 10%;
     }
 
     nav ul li {
@@ -213,8 +215,9 @@ h1 {
 }
 
 h2 {
-    font: 1em 'roboto mono', cursive;
-    background-color: aqua;
+    font: 1.5em '', cursive;
+    font-family: sans-serif;
+    /*background-color: aqua;*/
     border-radius: 10px;
     width: 75%;
     padding: .2em;

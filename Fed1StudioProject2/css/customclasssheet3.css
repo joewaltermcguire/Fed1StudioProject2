@@ -1,0 +1,151 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Monoton&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Space Mono', monospace;
+*/
+
+
+
+/*#region H tag, Body */
+
+body {
+    background: #c79dff;
+    color: black;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+h1 {
+    font: 3em 'Monoton', cursive;
+    /*font-family: "proxima-nova",sans-serif;*/
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    margin-left: -3px;
+    line-height: 1em;
+    color: #808080;
+    text-align: center;
+    margin-bottom: 8px;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    font: 3em 'Monoton', cursive;
+    /*font-family: "proxima-nova",sans-serif;*/
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    margin-left: -3px;
+    line-height: 1em;
+    color: black;
+    text-align: center;
+    margin-bottom: 8px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*#endregion */
+
+
+/*#region nav style */
+
+nav ul {
+    font: 1.2em '',cursive;
+    background-image: linear-gradient(green, lightpink, gray);
+    padding: .8em;
+    border-top: 2px dotted darkgray;
+    border-bottom: 2px dotted darkgray;
+}
+
+    nav ul li:hover {
+        background-image: linear-gradient(orange, lightgreen, blue);
+        border-radius: 10%;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            padding: .1em 1em;
+            display: block;
+        }
+
+
+
+/*#endregion */
+
+
+
+/*#region flexbox */
+/*.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+    flex-flow: row wrap;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    padding: 0;
+    margin: 10rem;
+    list-style: none;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 3px;
+    width: 200px;
+    height: 350px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}*/
+
+
+/*#endregion */
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rbg(27, 27, 27);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: green;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.car-1 {
+    background-image: url(https://images.app.goo.gl/8GGXhsXDWQvhGQUGA)
+}

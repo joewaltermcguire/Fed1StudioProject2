@@ -1,0 +1,50 @@
+﻿
+/*#region name */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Monoton&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Space Mono', monospace;
+*/
+
+
+
+
+/*#endregion */
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rbg(27, 27, 27);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: green;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.car-1 {
+    background-image: url(https://drive.google.com/file/d/1qJ9rgvOriCykZ9dBBFMfY5bI0ZAl7WR1/view?usp=sharing);
+}

@@ -1,0 +1,82 @@
+﻿@media only screen and ( max-width: 981px ) {
+    .logo-box {
+        width: 100% !important;
+    }
+}
+
+.logo-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.clientlogo-wrap {
+    margin: 25px auto;
+    background-color: pink;
+}
+
+.sprite-decor {
+    display: block;
+    position: static;
+    height: 35px;
+    margin: 2px;
+    background: url(https://phrutos.com/wp-content/uploads/2021/10/client-logos-spritev1.svg) no-repeat;
+    overflow: hidden;
+}
+
+    .sprite-decor.client-logo1 {
+        background-position: -4px -173px;
+    }
+
+    .sprite-decor.client-logo2 {
+        background-position: -185px -61px;
+    }
+
+    .sprite-decor.client-logo3 {
+        background-position: -9px -102px;
+    }
+
+    .sprite-decor.client-logo4 {
+        background-position: -186px -107px;
+    }
+
+    .sprite-decor.client-logo5 {
+        background-position: -159.5px -175px;
+    }
+
+    .sprite-decor.client-logo6 {
+        background-position: 0px 1px;
+    }
+
+.koncert {
+    background-size: 330px !important;
+    width: 115px;
+}
+
+.troops {
+    background-size: 360px !important;
+    width: 115px;
+}
+
+.braza {
+    background-size: 300px !important;
+    width: 90px;
+}
+
+.group2175 {
+    background-size: 320px !important;
+    width: 60px;
+}
+
+.gohomes {
+    background-size: 330px !important;
+    width: 125px;
+}
+
+.tugboat {
+    background-size: 330px !important;
+    width: 125px;
+}
